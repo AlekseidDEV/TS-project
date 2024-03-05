@@ -47,7 +47,7 @@ $ ./node_modules/.bin/tsc --init
 <img src="./img/image.png" alt="img">
 
 <p>
-    Затем под свойством compilerOptions, мы пропишим еще два свойства. Include помечает наши исходные файлы, которые будут компилироваться в publick, а exclude делает исключение, что бы из папки node_modules не копмпилировалось ничего лишнего.
+ Затем под свойством compilerOptions, мы пропишем еще два свойства. Include помечает наши исходные файлы, которые будут компилироваться в publick, а exclude делает исключение, что бы из папки node_modules не компилировалось ничего лишнего.
 </p>
 
 <img src="./img/image1.jpg" alt="img">

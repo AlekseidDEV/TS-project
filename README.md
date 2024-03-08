@@ -6,7 +6,7 @@
 
 ## :memo: Навигация по репозиториям
 <ul>
-    <li><a href='#test'>link</a></li>
+    <li><a class='nav-readme' href='#test'>link</a></li>
 </ul>
 
 ### Настройка проекта
@@ -51,6 +51,18 @@ $ ./node_modules/.bin/tsc --init
 </p>
 
 <img id='test' src="./img/image1.jpg" alt="img">
+
+
+<script>
+    const links = document.querySelector('.nav-readme')
+
+
+    links.addEventListener('click', (e) => {
+        e.preventDefault()
+
+        console.log(e.target)
+    })
+</script>
 
 
 

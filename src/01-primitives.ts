@@ -1,18 +1,18 @@
 //numbers
 let x = 10;
+
 // let z = 12345n;
 let y = NaN
 
 // string
 let myName = 'Alex'
 let symb = Symbol('as')
-
 // boolean
 let bool = true
 
 // nothing
-let undefinedValue = undefined
-let nullValue = null
+let undefinedValue: undefined = undefined
+let nullValue: null = null
 
 // literal
 const num = 450

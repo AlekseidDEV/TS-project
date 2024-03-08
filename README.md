@@ -6,7 +6,7 @@
 
 ## :memo: Навигация по репозиториям
 <ul>
-    <li>link</li>
+    <li><a href='#test'>link</a></li>
 </ul>
 
 ### Настройка проекта
@@ -50,7 +50,7 @@ $ ./node_modules/.bin/tsc --init
  Затем под свойством compilerOptions, мы пропишем еще два свойства. Include помечает наши исходные файлы, которые будут компилироваться в publick, а exclude делает исключение, что бы из папки node_modules не компилировалось ничего лишнего.
 </p>
 
-<img src="./img/image1.jpg" alt="img">
+<img id='test' src="./img/image1.jpg" alt="img">
 
 
 

@@ -59,11 +59,11 @@ $ npm start
  Затем под свойством compilerOptions, мы пропишем еще два свойства. Include помечает наши исходные файлы, которые будут компилироваться в publick, а exclude делает исключение, что бы из папки node_modules не компилировалось ничего лишнего.
 </p>
 
-<img src="./img/image1.jpg" alt="img">
+<img id="list" src="./img/image1.jpg" alt="img">
 
 
 ### :clipboard: Навигация по записям
-<ul id="list">
+<ul>
     <li><a href='#02'>Функции в TS</a></li>
 </ul>
 

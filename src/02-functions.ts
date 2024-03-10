@@ -21,3 +21,7 @@ const sumService = (...services: number[]) => {
 
     return sumServices / 10
 }
+
+
+
+

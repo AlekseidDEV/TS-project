@@ -15,3 +15,5 @@ const sumService = (...services) => {
     const sumServices = services.reduce((current, total) => current + total, 0);
     return sumServices / 10;
 };
+
+

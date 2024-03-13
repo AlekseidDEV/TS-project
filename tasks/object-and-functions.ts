@@ -29,9 +29,9 @@ const user1: Admin = {
 }
 
 const isLoginuser = (user: {login: string, password: string, role?: string}): void => {
-    if(user.role){
+    if(user.role && user.login !== '' && user.password !== ''){
         console.log(`hello ${user.role.toUpperCase()}`);
-    } else{
+    } else if(!user.role && user.login !== '' && user.password !== ''){
         console.log('hello user');
     }
 }
